@@ -11,7 +11,7 @@ mlochbaum의 CrinGraph 레포지터리를 포크하여 Alt 레이아웃을 활�
 
 ## 현재 업로드된 이어폰/IEM 목록
 
-**64Audio** : U18s(풀흡음님 측정, M15 필터)
+**64Audio** : U18s (풀흡음님 측정, M15 필터)
 
 **7Hz(Salnotes)** : Dioko(냥냐냥님 측정), Eternal (냥냐냥님 측정), Timeless (냥냐냥님 측정)
 
