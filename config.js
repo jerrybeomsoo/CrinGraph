@@ -15,7 +15,7 @@ const init_phones = [], // Optional. Which graphs to display on initial load. No
   site_url = "graph.html", // URL of your graph "homepage"
   share_url = true, // If true, enables shareable URLs
   watermark_text = "", // Optional. Watermark appears behind graphs
-  watermark_image_url = "DC_inside_logo_edit.svg", // Optional. If image file is in same directory as config, can be just the filename
+  watermark_image_url = "logo_new.svg", // Optional. If image file is in same directory as config, can be just the filename
   page_title = "dc 헤마갤 이어폰 측정 DB by ER4SR", // Optional. Appended to the page title if share URLs are enabled
   page_description = "헤마갤 힘내세요 ㅋㅋㄷㄷ",
   accessories = true, // If true, displays specified HTML at the bottom of the page. Configure further below
@@ -79,10 +79,10 @@ function watermark(svg) {
 
   if (watermark_image_url) {
     wm.append("image").attrs({
-      x: -128,
-      y: -104,
+      x: 0,
+      y: -256,
       width: 256,
-      height: 256,
+      height: 56,
       "xlink:href": watermark_image_url,
     });
   }
