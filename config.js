@@ -79,10 +79,10 @@ function watermark(svg) {
 
   if (watermark_image_url) {
     wm.append("image").attrs({
-      x: 1,
-      y: 1,
+      x: -150,
+      y: -150,
       width: 256,
-      height: 56,
+      height: 256,
       "xlink:href": watermark_image_url,
     });
   }
