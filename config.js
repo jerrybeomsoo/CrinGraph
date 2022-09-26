@@ -79,8 +79,8 @@ function watermark(svg) {
 
   if (watermark_image_url) {
     wm.append("image").attrs({
-      x: 0,
-      y: -256,
+      x: 1,
+      y: 1,
       width: 256,
       height: 56,
       "xlink:href": watermark_image_url,
