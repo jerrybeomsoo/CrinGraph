@@ -81,7 +81,7 @@ function watermark(svg) {
 // Smaller number makes the watermark to sit in more left or above position, for x and y respectively.
   if (watermark_image_url) {
     wm.append("image").attrs({
-      x: 128,
+      x: 129,
       y: 100,
       width: 255,
       height: 70,
