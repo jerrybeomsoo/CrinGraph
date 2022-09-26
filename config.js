@@ -82,7 +82,7 @@ function watermark(svg) {
       x: -150,
       y: -150,
       width: 256,
-      height: 256,
+      height: 57,
       "xlink:href": watermark_image_url,
     });
   }
