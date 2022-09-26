@@ -77,10 +77,12 @@ function watermark(svg) {
     )
     .attr("opacity", 0.2);
 
+// those x and y coordiates in watermark_image_url are pretty much inversed from my intuition.
+// Smaller number makes the watermark to sit in more left or above position, for x and y respectively.
   if (watermark_image_url) {
     wm.append("image").attrs({
-      x: -150,
-      y: -200,
+      x: -50,
+      y: -50,
       width: 256,
       height: 70,
       "xlink:href": watermark_image_url,
