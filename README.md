@@ -1,12 +1,16 @@
-# 헤드폰 마이너 갤러리 이어폰 FR 측정치 DB/비교 사이트
+# 헤드폰갤러리 이어폰 FR 측정치 DB/비교 사이트 + 이어폰/헤드폰 AutoEQ 및 EQ 시뮬레이터
 
 측정치 비교 바로가기: https://jerrybeomsoo.github.io/CrinGraph/graph.html
 
+사이트 사용법 (측정치 비교, EQ 시뮬레이터 활용 등) 및 측정 방법 총정리: https://gall.dcinside.com/mgallery/board/view/?id=newheadphone&no=189112&page=1
+
 IEC 711 (60318-4) 호환 이어 커플러 마이크로 측정한 이어폰/IEM의 주파수 응답 측정치를 열람/비교/공유할 수 있는 사이트입니다.
 
-mlochbaum의 CrinGraph 레포지터리를 포크하여 Alt 레이아웃을 활용하였습니다.
+mlochbaum의 CrinGraph 레포지터리를 포크하여 Alt 레이아웃을 활용하였으며 Github Pages를 통해 서비스 하고 있습니다.
 
-현재는 Github Pages로 운영 중이지만, 추후에는 직접 웹사이트를 호스팅할 예정입니다.
+현재 해외 리뷰어 Banbeucmaus님의 디스코드 봇과 연동된 상태입니다.
+
+https://banbeu.com/ 페이지의 배너를 통해 디스코드 서버에 접속하신 후, 명령어를 입력하시면 이 측정치 db에 올라온 자료를 열람하실 수 있습니다.
 
 
 ## 현재 업로드된 이어폰/IEM 목록
@@ -151,14 +155,3 @@ mlochbaum의 CrinGraph 레포지터리를 포크하여 Alt 레이아웃을 활�
 **피프틴유저** : 7Hz Eternal 제공
 
 **ㅓㅣ** : Acoustune HS1300SS, Samsung EHS 64, Tangzu Shimin Li, Tripowin Cencibel, Rhombus 제공
-
-
-## 측정치 생성/업로드 방법
-
-Room EQ Wizard로 측정하는 방법 / 깃허브에 파일을 올리고 리스트를 수정하여 Pull Request 하는 법은 아래 링크에 있는 글로 대체하겠습니다.
-
-https://gall.dcinside.com/mgallery/board/view/?id=newheadphone&no=71325
-
-https://gall.dcinside.com/mgallery/board/view?id=newheadphone&no=80782
-
-측정은 했고 깃허브에 업로드하고 싶은데 뭔지 모르시겠다 하시는 분께서는 jerrybeomsoo@naver.com 으로 측정치 파일을 보내주시면 됩니다.
