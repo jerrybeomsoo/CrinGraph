@@ -282,6 +282,7 @@
                     "ER4XR Sample 1 (by ER4SR) (Ety Small Clear Tri-flange Tips)",
                     "ER4XR Sample 1 (by ER4SR) (Ety Foam Tips)",
                     "ER4XR Sample 2 (by 냥냐냥) (Ety Clear Tri-Flange Tips)",
+                    "ER4XR Sample 2 (by 냥냐냥) (Ety Dual Flange Tips)",
                     "ER4XR Sample 2 (by 냥냐냥) (Ety Frost Tips)",
                     "ER4XR Sample 2 (by 냥냐냥) (Ety Foam Tips)",
                     "ER4XR Sample 3 (Deprecated) (by ER4SR) (Ety Grey Tips)",
@@ -297,6 +298,7 @@
             {
                 "name": "mk5",
                 "file": ["mk5 Sample 1 (by 냥냐냥) (Ety Clear Tri-Flange Tips)",
+                         "mk5 Sample 1 (by 냥냐냥) (Ety Dual Flange Tips)",
                          "mk5 Sample 1 (by 냥냐냥) (Ety Frost Tips)",
                          "mk5 Sample 1 (by 냥냐냥) (Ety Foam Tips)",
                          "mk5 Sample 2 (by 냥냐냥) (Shure Foam Tips)"
