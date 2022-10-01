@@ -226,7 +226,10 @@
         "phones": [
             {
                 "name": "CRA",
-                "file": "CRA Sample 1 (by NX7)",
+                "file": ["CRA Sample 1 (by NX7)",
+                         "CRA Sample 2 (by 냥냐냥)",
+                         "CRA Sample 2 (by 냥냐냥) (Final E Tips)"
+                        ],
                 "prefix": "CRA"
             }
         ]
@@ -253,7 +256,8 @@
                     "ER2SE Sample 1 (by 아소카) (Default Dampers) (Clear Tri-flange)",
                     "ER2SE Sample 1 (by 아소카) (Ety Red Dampers) (Clear Tri-flange)",
                     "ER2SE Sample 1 (by 아소카) (Ety Red Dampers) (Frost Tri-flange)",
-                    "ER2SE Sample 1 (by 아소카) (Ety Red Dampers) (Westone Star Tips)"
+                    "ER2SE Sample 1 (by 아소카) (Ety Red Dampers) (Westone Star Tips)",
+                    "ER2SE Sample 1 (Ety Red Dampers) (Foam Tips)"
                 ],
                 "prefix": "ER2SE"
             },
@@ -359,6 +363,14 @@
                 "name": "E500",
                 "file": "E500 Sample 1 (by 냥냐냥)",
                 "prefix": "E500"
+            },
+            {
+                "name": "E4000",
+                "file": [
+                         "E4000 Sample 1 (by 냥냐냥)",
+                         "E4000 Sample 1 (by 냥냐냥) (9k Peak)",
+                         "E4000 Sample 1 (by 냥냐냥) (Deep Insertion)"
+                        ]
             }
         ]
     },
@@ -543,7 +555,16 @@
                 "file": [
                     "Aria Snow Edition Sample 1 (by 이소양)",
                     "Aria Snow Edition Sample 2 (Spring Tips) (by ER4SR)",
-                    "Aria Snow Edition Sample 2 (Grey Tips) (by ER4SR)"
+                    "Aria Snow Edition Sample 2 (Grey Tips) (by ER4SR)",
+                    "Aria Snow Edition Sample 3 (by 냥냐냥)",
+                    "Aria Snow Edition Sample 3 (by 냥냐냥) (Spring Tips)",
+                    "Aria Snow Edition Sample 3 (by 냥냐냥) (Deep Mount Tips)",
+                    "Aria Snow Edition Sample 3 (by 냥냐냥) (Final E Tips)",
+                    "Aria Snow Edition Sample 3 (by 냥냐냥) (Azla Crystal Tips)",
+                    "Aria Snow Edition Sample 3 (by 냥냐냥) (UC Tips)",
+                    "Aria Snow Edition Sample 3 (by 냥냐냥) (AEX70 Tips)",
+                    "Aria Snow Edition Sample 3 (by 냥냐냥) (AET07 Tips)",
+                    "Aria Snow Edition Sample 3 (by 냥냐냥) (AET08 Tips)"
                 ],
                 "prefix": "Aria Snow Edition"
             },
@@ -565,7 +586,15 @@
                     "Chu Sample 1 (Softears UC Tips) (by 아소카)",
                     "Chu Sample 2 (by Patria) (L Only)",
                     "Chu Sample 3 (by 냥냐냥)",
-                    "Chu Sample 3 (by 냥냐냥) (Final E Tips)"
+                    "Chu Sample 3 (by 냥냐냥) (Final E Tips)",
+                    "Chu Sample 4 (by 냥냐냥)",
+                    "Chu Sample 4 (by 냥냐냥) (Final E Tips)",
+                    "Chu Sample 4 (by 냥냐냥) (Deep Mount Tips)",
+                    "Chu Sample 4 (by 냥냐냥) (Azla Crystal Tips)",
+                    "Chu Sample 4 (by 냥냐냥) (UC Tips)",
+                    "Chu Sample 4 (by 냥냐냥) (AEX70 Tips)",
+                    "Chu Sample 4 (by 냥냐냥) (AET07 Tips)",
+                    "Chu Sample 4 (by 냥냐냥) (AET08 Tips)"
                 ],
                 "prefix": "Chu"
             },
@@ -578,7 +607,18 @@
                     "Kato Sample 1 (Steel Nozzle) (Final E Tips) (by ER4SR)",
                     "Kato Sample 1 (Steel Nozzle) (Final E Tips) (Deep Insertion) (by ER4SR)",
                     "Kato Sample 1 (Steel Nozzle) (Spring Tips) (by ER4SR)",
-                    "Kato Sample 1 (Steel Nozzle) (Foam Tips) (by ER4SR)"
+                    "Kato Sample 1 (Steel Nozzle) (Foam Tips) (by ER4SR)",
+                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle)",
+                    "Kato Sample 2 (by 냥냐냥) (Steel Nozzle)",
+                    "Kato Sample 2 (by 냥냐냥) (Rusty Brass Nozzle)",
+                    "Kato Sample 2 (by 냥냐냥) (Rusty Steel Nozzle)",
+                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle) (Final E Tips)",
+                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle) (Azla Crystal Tips)",
+                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle) (Deep Mount Tips)",
+                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle) (AET07 Tips)",
+                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle) (AET08 Tips)",
+                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle) (Azla Sedna Light Tips)",
+                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle) (Spiral Dots Tips)"
                 ],
                 "prefix": "Kato"
             },
@@ -989,7 +1029,18 @@
                 "file": [
                     "Zero Sample 1 (by 냥냐냥) (Bass Tips)",
                     "Zero Sample 1 (by 냥냐냥) (Treble Tips)",
-                    "Zero Sample 1 (by 냥냐냥) (Final E Tips)"
+                    "Zero Sample 1 (by 냥냐냥) (Final E Tips)",
+                    "Zero Sample 2 (by 냥냐냥) (Bass Tips)",
+                    "Zero Sample 2 (by 냥냐냥) (Treble Tips)",
+                    "Zero Sample 2 (by 냥냐냥) (Spring Tips)",
+                    "Zero Sample 2 (by 냥냐냥) (Final E Tips)",
+                    "Zero Sample 2 (by 냥냐냥) (Deep Mount Tips)",
+                    "Zero Sample 2 (by 냥냐냥) (Azla Crystal Tips)",
+                    "Zero Sample 2 (by 냥냐냥) (UC Tips)",
+                    "Zero Sample 2 (by 냥냐냥) (AEX70 Tips)",
+                    "Zero Sample 2 (by 냥냐냥) (AET07 Tips)",
+                    "Zero Sample 2 (by 냥냐냥) (Azla Sedna Light Tips)",
+                    "Zero Sample 2 (by 냥냐냥) (Spiral Dots Tips)"      
                 ],
                 "prefix": "Zero"
             }
@@ -1017,6 +1068,18 @@
                     "Legacy 4 Sample 1 (by 냥냐냥) (12 Settings)"
                 ],
                 "prefix": "Legacy 4"
+            }
+        ]
+    },
+    {
+        "name": "Tin Hifi",
+        "phones": [
+            {
+                "name": "T2 Plus",
+                "file": [
+                    "T2 Plus Sample 1 (by 냥냐냥) (L Only)",
+                    "T2 Plus Sample 1 (by 냥냐냥) (Final E Tips) (L Only)"
+                ]
             }
         ]
     },

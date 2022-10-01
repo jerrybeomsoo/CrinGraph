@@ -113,6 +113,8 @@ https://banbeu.com/ 페이지의 배너를 통해 디스코드 서버에 접속�
 
 **Thieaudio** : Legacy 4 (냥냐냥님 측정)
 
+**Tin Hifi** : T2 Plus (냥냐냥님 측정)
+
 **Tripowin** : Cencibel (T-APB 저음팁, 냥냐냥님 측정), Rhombus (T-APB 저음팁, 냥냐냥님 측정)
 
 **TRN** : MT1 (냥냐냥님 측정)
@@ -136,6 +138,8 @@ https://banbeu.com/ 페이지의 배너를 통해 디스코드 서버에 접속�
 
 **Ricopam** : Beyerdynamic DTX 41 iE, KZ AS10, TRN MT1, Moondrop SSR(Sample 2) 제공
 
+**RSGARU** : Moondrop Aria Snow Edition Sample 3, Chu Sample 4, Kato Sample 2, Tanchjim Zero Sample 2 제공
+
 **SilicaGel** : Direm Pro SL, Direm HT1, Direm W1, Thieaudio Legacy 4, ddHiFi Janus 제공
 
 **뉴비** : Etymotic Research mc5, mk5 Sample 2, Phonak PFE 022 제공
@@ -145,6 +149,8 @@ https://banbeu.com/ 페이지의 배너를 통해 디스코드 서버에 접속�
 **돼지고닉해드** : Shouer S12, Muse Hifi Power, Seeaudio Bravery 제공
 
 **보안폴더** : 7hz Dioko, Timeless(Sample 2), Final A3000, Tanchjim Zero 제공
+
+**아소카** : CCA CRA Sample 2, Etymotic Research ER2SE, Final E4000, Tin Hifi T2 Plus 제공
 
 **유키나유키농** : Audio-Technica ATM-IM01, Audio-Technica ATM-IM02, Audiofly AF120, Ultrasone Pyco, Ultrasone Tio, Ultimate Ears UE700 rev.2 제공
 
