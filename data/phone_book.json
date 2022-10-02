@@ -599,30 +599,41 @@
                 "prefix": "Chu"
             },
             {
-                "name": "KATO",
+                "name": "KATO (Brass Nozzle)",
                 "file": [
-                    "Kato Sample 1 (Brass Nozzle) (Final E Tips) (by ER4SR)",
+                    
                     "Kato Sample 1 (Brass Nozzle) (Spring Tips) (by ER4SR)",
+                    "Kato Sample 1 (by 냥냐냥) (Brass Nozzle)",
+                    "Kato Sample 1 (by 냥냐냥) (Rusty Brass Nozzle)",
+                    "Kato Sample 1 (Brass Nozzle) (Final E Tips) (by ER4SR)",
+                    "Kato Sample 1 (by 냥냐냥) (Brass Nozzle) (Final E Tips)",
                     "Kato Sample 1 (Brass Nozzle) (Foam Tips) (by ER4SR)",
-                    "Kato Sample 1 (Steel Nozzle) (Final E Tips) (by ER4SR)",
-                    "Kato Sample 1 (Steel Nozzle) (Final E Tips) (Deep Insertion) (by ER4SR)",
-                    "Kato Sample 1 (Steel Nozzle) (Spring Tips) (by ER4SR)",
-                    "Kato Sample 1 (Steel Nozzle) (Foam Tips) (by ER4SR)",
-                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle)",
-                    "Kato Sample 2 (by 냥냐냥) (Steel Nozzle)",
-                    "Kato Sample 2 (by 냥냐냥) (Rusty Brass Nozzle)",
-                    "Kato Sample 2 (by 냥냐냥) (Rusty Steel Nozzle)",
-                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle) (Final E Tips)",
-                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle) (Azla Crystal Tips)",
-                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle) (Deep Mount Tips)",
-                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle) (AET07 Tips)",
-                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle) (AET08 Tips)",
-                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle) (AEX70 Tips)",
-                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle) (UC Tips)",
-                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle) (Azla Sedna Light Tips)",
-                    "Kato Sample 2 (by 냥냐냥) (Brass Nozzle) (Spiral Dots Tips)"
+                    "Kato Sample 1 (by 냥냐냥) (Brass Nozzle) (Azla Crystal Tips)",
+                    "Kato Sample 1 (by 냥냐냥) (Brass Nozzle) (Deep Mount Tips)",
+                    "Kato Sample 1 (by 냥냐냥) (Brass Nozzle) (AET07 Tips)",
+                    "Kato Sample 1 (by 냥냐냥) (Brass Nozzle) (AET08 Tips)",
+                    "Kato Sample 1 (by 냥냐냥) (Brass Nozzle) (Azla Sedna Light Tips)",
+                    "Kato Sample 1 (by 냥냐냥) (Brass Nozzle) (Spiral Dots Tips)"
                 ],
                 "prefix": "Kato"
+            },
+            {
+                "name": "KATO (Steel Nozzle)",
+                "file":[
+                    "Kato Sample 1 (Steel Nozzle) (Spring Tips) (by ER4SR)",
+                    "Kato Sample 1 (by 냥냐냥) (Steel Nozzle)",
+                    "Kato Sample 1 (by 냥냐냥) (Rusty Steel Nozzle)",
+                    "Kato Sample 1 (Steel Nozzle) (Final E Tips) (by ER4SR)",
+                    "Kato Sample 1 (Steel Nozzle) (Final E Tips) (Deep Insertion) (by ER4SR)",
+                    "Kato Sample 1 (by 냥냐냥) (Steel Nozzle) (Final E Tips)",
+                    "Kato Sample 1 (Steel Nozzle) (Foam Tips) (by ER4SR)",
+                    "Kato Sample 1 (by 냥냐냥) (Steel Nozzle) (Azla Crystal Tips)",
+                    "Kato Sample 1 (by 냥냐냥) (Steel Nozzle) (Deep Mount Tips)",
+                    "Kato Sample 1 (by 냥냐냥) (Steel Nozzle) (AET07 Tips)",
+                    "Kato Sample 1 (by 냥냐냥) (Steel Nozzle) (AET08 Tips)",
+                    "Kato Sample 1 (by 냥냐냥) (Steel Nozzle) (Azla Sedna Light Tips)",
+                    "Kato Sample 1 (by 냥냐냥) (Steel Nozzle) (Spiral Dots Tips)"
+                ]
             },
             {
                 "name": "KXXS",
