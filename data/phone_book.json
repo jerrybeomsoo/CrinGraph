@@ -709,6 +709,16 @@
             }
         ]
     },
+	{
+        "name": "Neo Infinity",
+        "phones": [
+            {
+                "name": "NEO-E200",
+                "file": "NEO-E200 Sample 1 (by Halc6on)",
+                "prefix": "NEO-E200"
+            }
+        ]
+    },
     {
         "name": "nura",
         "phones": [
@@ -1202,7 +1212,10 @@
         "phones": [
             {
                 "name": "Pyco",
-                "file": "Pyco Sample 1 (by 냥냐냥)",
+                "file": [
+				"Pyco Sample 1 (by 냥냐냥)",
+				"Pyco Sample 2 (by Halc6on)"
+				],
                 "prefix": "Pyco"
             },
             {
