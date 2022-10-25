@@ -131,6 +131,13 @@
                 "prefix": "Airpods Pro"
             },
             {
+                "name": "Earpods",
+                "file": [
+                    "Earpods Sample 1 (by 풀흡음 - SN 40497) (With Foam)",
+                    "Earpods Sample 1 (by 풀흡음 - SN 40497) (Without Foam)"
+                ]
+            },
+            {
                 "name": "In-Ear Headphones",
                 "file": ["In-Ear Headphones Sample 1 (by 냥냐냥)",
                 "In-Ear Headphones Sample 1 (by 냥냐냥) (Final E Tips)",
@@ -410,6 +417,18 @@
         ]
     },
     {
+        "name": "Foster",
+        "phones": [
+            {
+                "name": "VX400",
+                "file": [
+                    "VX400 Sample 1 (by 풀흡음 - SN 40497) (With Foam)",
+                    "VX400 Sample 1 (by 풀흡음 - SN 40497) (Without Foam)"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Iriver",
         "phones": [
             {
@@ -431,6 +450,18 @@
                 "name": "E25BT",
                 "file": "E25BT (by 아소카)",
                 "prefix": "E25BT"
+            }
+        ]
+    },
+    {
+        "name": "KBear",
+        "phones": [
+            {
+                "name": "Stellar",
+                "file": [
+                    "Stellar Sample 1 (by 풀흡음 - SN 40497) (With Foam)",
+                    "Stellar Sample 1 (by 풀흡음 - SN 40497) (Without Foam)"
+                ]
             }
         ]
     },
@@ -659,6 +690,14 @@
                 "name": "KXXS",
                 "file": "KXXS Sample 1 (by 이소양)",
                 "prefix": "KXXS"
+            },
+            {
+                "name":"Nameless",
+                "file":[
+                    "Nameless Sample 1 (by 풀흡음 - SN 40497) (With Foam)",
+                    "Nameless Sample 1 (by 풀흡음 - SN 40497) (Without Foam)",
+                    "Nameless Sample 1 (by 풀흡음 - SN 40497) (With Foam, Pressure)"
+                ]
             },
             {
                 "name": "Nekocake",
@@ -909,6 +948,13 @@
                 "name": "IE400 Pro",
                 "file": "IE400 Pro Sample 1 (by ER4SR) (Final E M)",
                 "prefix": "IE400 Pro"
+            },
+            {
+                "name": "MX400 II",
+                "file": [
+                    "MX400 II Sample 1 (by 풀흡음 - SN 40497) (With Foam)",
+                    "MX400 II Sample 1 (by 풀흡음 - SN 40497) (Without Foam)"
+                ]
             }
         ]
     },
