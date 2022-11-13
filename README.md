@@ -140,9 +140,11 @@ https://banbeu.com/ 페이지의 배너를 통해 디스코드 서버에 접속�
 
 **RSGARU** : Moondrop Aria Snow Edition Sample 3, Chu Sample 4, Kato Sample 2, Tanchjim Zero Sample 2 제공
 
+**SeanOlive** : DUNU SA6 제공
+
 **SilicaGel** : Direm Pro SL, Direm HT1, Direm W1, Thieaudio Legacy 4, ddHiFi Janus 제공
 
-**뉴비** : Etymotic Research mc5, mk5 Sample 2, Phonak PFE 022 제공
+**초급자** : DUNU Zen, Empire Ears Odin, Etymotic Research mc5, mk5 Sample 2, Phonak PFE 022, Final A8000, Shure KSE1500 제공
 
 **뎃데로게.** : Moondrop Aria (2018) 제공
 

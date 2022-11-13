@@ -265,6 +265,33 @@
         ]
     },
     {
+        "name": "DUNU",
+        "phones": [
+            {
+                "name": "SA6",
+                "file": [
+                    "SA6 Sample 1 (by 냥냐냥) (Switch Off)",
+                    "SA6 Sample 1 (by 냥냐냥) (Switch On)"
+                ]
+            },
+            {
+                "name": "Zen",
+                "file": [
+                    "Zen Sample 1 (by 냥냐냥)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Empire Ears",
+        "phones": [
+            {
+                "name": "Odin",
+                "file": ["Odin Sample 1 (by 냥냐냥) (L Only)"]
+            }
+        ]
+    },
+    {
         "name": "Etymotic Research",
         "phones": [
             {
@@ -375,6 +402,10 @@
                 "name": "A4000",
                 "file": "A4000 Sample 1 (by NX7) (L Only)",
                 "prefix": "A4000"
+            },
+            {
+                "name": "A8000",
+                "file": ["A8000 Sample 1 (by 냥냐냥) (Spiral Dot SF Tips)"]
             },
             {
                 "name": "E500",
@@ -976,6 +1007,21 @@
         ]
     },
     {
+        "name": "Shure",
+        "phones": [
+            {
+                "name": "KSE1500",
+                "file": [
+                    "KSE1500 Sample 1 (by 냥냐냥)",
+                    "KSE1500 Sample 1 (by 냥냐냥) (Low Boost Preset)",
+                    "KSE1500 Sample 1 (by 냥냐냥) (Vocal Boost Preset)",
+                    "KSE1500 Sample 1 (by 냥냐냥) (Loudness Preset)",
+                    "KSE1500 Sample 1 (by 냥냐냥) (De-ess Preset)"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Simgot",
         "phones": [
             {
@@ -1059,8 +1105,9 @@
         "phones": [
             {
                 "name": "IER-M7",
-                "file": "IER-M7 Sample 1 (by ER4SR) (Hybrid Silicone M)",
-                "prefix": "IER-M7"
+                "file": ["IER-M7 Sample 1 (by ER4SR) (Hybrid Silicone M)",
+                         "IER-M7 Sample 2 (by 냥냐냥) (Hybrid Silicone Tips)",
+                         "IER-M7 Sample 2 (by 냥냐냥) (Triple-Comfort Tips)"]
             },
             {
                 "name": "WF-1000XM4",
