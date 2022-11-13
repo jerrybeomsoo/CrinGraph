@@ -1058,7 +1058,10 @@
                 "name": "IER-M7",
                 "file": ["IER-M7 Sample 1 (by ER4SR) (Hybrid Silicone M)",
                          "IER-M7 Sample 2 (by 냥냐냥) (Hybrid Silicone Tips)",
-                         "IER-M7 Sample 2 (by 냥냐냥) (Triple-Comfort Tips)"]
+                         "IER-M7 Sample 2 (by 냥냐냥) (Triple-Comfort Tips)",
+                         "IER-M7 Sample 2 (by 냥냐냥) (T-APB Bass Tips)",
+                         "IER-M7 Sample 2 (by 냥냐냥) (T-APB Treble Tips)"
+                        ]
             },
             {
                 "name": "WF-1000XM4",
