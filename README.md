@@ -99,7 +99,7 @@ https://banbeu.com/ 페이지의 배너를 통해 디스코드 서버에 접속�
 
 **Shouer** : S12 (냥냐냥님 측정)
 
-**Simgot** : EM5 (냥냐냥님 측정)
+**Simgot** : EM5 (냥냐냥님 측정), EN1000 (냥냐냥님 측정)
 
 **Sonicast** : Dirac MK2 (냥냐냥님 측정), Direm E3-C (냥냐냥님 측정), Direm HT1 (냥냐냥님 측정), Direm KASA, Direm Pro SL (냥냐냥님 측정), Direm W1 (냥냐냥님 측정)
 
@@ -138,7 +138,7 @@ https://banbeu.com/ 페이지의 배너를 통해 디스코드 서버에 접속�
 
 **Ricopam** : Beyerdynamic DTX 41 iE, KZ AS10, TRN MT1, Moondrop SSR(Sample 2) 제공
 
-**RSGARU** : Moondrop Aria Snow Edition Sample 3, Chu Sample 4, Kato Sample 2, Tanchjim Zero Sample 2 제공
+**RSGARU** : Moondrop Aria Snow Edition Sample 3, Chu Sample 4, Kato Sample 2, Simgot EN1000, Tanchjim Zero Sample 2 제공
 
 **SeanOlive** : DUNU SA6 제공
 

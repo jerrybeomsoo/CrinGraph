@@ -1035,6 +1035,16 @@
                     "EM5 Sample 2 (by 냥냐냥) (Tip I) (L Only)"
                 ],
                 "prefix": "EM5"
+            },
+            {
+                "name": "EN1000",
+                "file": [
+                    "EN1000 Sample 1 (by 냥냐냥) (N3A000 Plug)",
+                    "EN1000 Sample 1 (by 냥냐냥) (C2A035 Plug)",
+                    "EN1000 Sample 1 (by 냥냐냥) (C3A045 Plug)",
+                    "EN1000 Sample 1 (by 냥냐냥) (KATO Stock Cable)",
+                    "EN1000 Sample 1 (by 냥냐냥) (KATO Stock Cable) (Deep Mount Tips)"
+                ]
             }
         ]
     },
