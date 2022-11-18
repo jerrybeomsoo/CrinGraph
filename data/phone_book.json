@@ -244,6 +244,16 @@
         ]
     },
     {
+        "name": "Craftears",
+        "phones": [
+            {
+                "name": "C6",
+                "file": "C6 Sample 1 (by Halc6on)",
+                "prefix": "C6"
+            }
+        ]
+    },
+    {
         "name": "ddHiFi",
         "phones": [
             {
@@ -426,6 +436,16 @@
                     "CALLA Sample 1 (by 냥냐냥) (Deep Insertion)"
                 ],
                 "prefix": "CALLA"
+            }
+        ]
+    },
+	{
+        "name": "Hifiman",
+        "phones": [
+            {
+                "name": "RE600s",
+                "file": "RE600s Sample 1 (by Halc6on)",
+                "prefix": "RE600s"
             }
         ]
     },
@@ -761,6 +781,16 @@
             }
         ]
     },
+	{
+        "name": "Neo Infinity",
+        "phones": [
+            {
+                "name": "NEO-E200",
+                "file": "NEO-E200 Sample 1 (by Halc6on)",
+                "prefix": "NEO-E200"
+            }
+        ]
+    },
     {
         "name": "nura",
         "phones": [
@@ -796,7 +826,12 @@
                 "name": "PFE 022",
                 "file": "PFE 022 Sample 1 (by 냥냐냥) (Shure Foam Tips)",
                 "prefix": "PFE 022"
-            }
+            },
+			{
+				"name": "PFE 111",
+				"file": "PFE 111 Sample 1 (by Halc6on) (Gray Filter)",
+				"prefix": "PFE 111"
+			}
         ]
     },
     {
@@ -868,6 +903,16 @@
                 "name": "Adonis",
                 "file": "Adonis Sample 1 (by 이소양)",
                 "prefix": "Adonis"
+            }
+        ]
+    },
+	{
+        "name": "RHA",
+        "phones": [
+            {
+                "name": "CL2",
+                "file": "CL2 Sample 1 (by Halc6on)",
+                "prefix": "CL2"
             }
         ]
     },
@@ -956,7 +1001,8 @@
                     "S12 Sample 1 (by 냥냐냥) (Black Tips)",
                     "S12 Sample 2 (by ER4SR) (Foam Tips)",
                     "S12 Sample 3 (by 냥냐냥) (White Tips)",
-                    "S12 Sample 3 (by 냥냐냥) (Black Tips)"
+                    "S12 Sample 3 (by 냥냐냥) (Black Tips)",
+					"S12 Sample 4 (by Halc6on)"
                 ],
                 "prefix": "S12"
             }
@@ -1040,6 +1086,11 @@
                     "Direm HT1 Sample 1 (by 냥냐냥) (LG G8 AAC Codec)"
                 ],
                 "prefix": "Direm HT1"
+            },
+			{
+                "name": "Direm Pro 2",
+                "file": "Direm Pro 2 Sample 1 (by Halc6on)",
+                "prefix": "Direm Pro 2"
             },
             {
                 "name": "Direm Pro Master",
@@ -1236,7 +1287,8 @@
                 "name": "RE-1",
                 "file": [
                     "RE-1 Sample 1 (by 이소양)",
-                    "RE-1 Sample 2 (by NX7)"
+                    "RE-1 Sample 2 (by NX7)",
+					"RE-1 Sample 3 (by Halc6on)"
                 ],
                 "prefix": "RE-1"
             },
@@ -1246,7 +1298,8 @@
                     "RE-2 Sample 1 (by 아소카)",
                     "RE-2 Sample 2 (by 이소양)",
                     "RE-2 Sample 3 (by ER4SR) (Small Silicone Tips)",
-                    "RE-2 Sample 4 (by ER4SR) (Final E M)"
+                    "RE-2 Sample 4 (by ER4SR) (Final E M)",
+					"RE-2 Sample 5 (by Halc6on)"
                 ],
                 "prefix": "RE-2"
             }
@@ -1267,7 +1320,10 @@
         "phones": [
             {
                 "name": "Pyco",
-                "file": "Pyco Sample 1 (by 냥냐냥)",
+                "file": [
+				"Pyco Sample 1 (by 냥냐냥)",
+				"Pyco Sample 2 (by Halc6on)"
+				],
                 "prefix": "Pyco"
             },
             {
@@ -1277,6 +1333,16 @@
                     "Tio Sample 1 (by 냥냐냥) (Spinfit Tips)"
                 ],
                 "prefix": "Tio"
+            }
+        ]
+    },
+	{
+        "name": "Westone Audio",
+        "phones": [
+            {
+                "name": "Mach 60",
+                "file": "Mach 60 Sample 1 (by Halc6on)",
+                "prefix": "Mach 60"
             }
         ]
     }
