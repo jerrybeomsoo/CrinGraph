@@ -1125,6 +1125,11 @@
                         ]
             },
             {
+                "name": "IER-Z1R",
+                "file": "IER-Z1R Sample 1 (by ER4SR) (Hybrid Silicone M)",
+		"prefix": "IER-Z1R"
+            },
+            {
                 "name": "WF-1000XM4",
                 "file": "WF-1000XM4 Sample 1 (by Patria) (L Only)",
                 "prefix": "WF-1000XM4"
