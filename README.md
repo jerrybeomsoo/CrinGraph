@@ -130,7 +130,7 @@ https://banbeu.com/ 페이지의 배너를 통해 디스코드 서버에 접속�
 
 **EX이헤갤러** : AKG N5005(Sample 3), Atomic Floyd SuperDarts Titanium, Etymotic ER4SR Sample 2, ER4XR Sample 2, mk5, Refrig Audio Trecento 2020 Live(Sample 1, 2), Simgot EM5(Sample 1, 2), SeeAudio Yume Midnight, Shouer S12(Sample 3), Tanchjim Hana, Tanchjim New Hana Sample 2 제공
 
-**FH5S=오딘** : Fiio FW1, Lypertek Z3, Soundpeats Sonic Pro 제공
+**FiiO=GOD** : AudioSense AQ4, AQ7 Pro, DT200, DT300, DT800, Fiio FH5S, FW1, KBear KS2, Lypertek Z3, Soundpeats Sonic Pro, Tingker Tk300 제공
 
 **JohnYang1997** : BQEYZ K2, Final E500, FiiO F3, Ostry KC06A(Sample 2), Etymotic Research mc5, mk5 Sample 2, Phonak PFE 022 제공
 

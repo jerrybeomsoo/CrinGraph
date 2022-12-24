@@ -196,6 +196,47 @@
         ]
     },
     {
+        "name": "AudioSense",
+        "phones": [
+            {
+                "name": "AQ4",
+                "file": [
+                    "AQ4 Sample 1 (by 냥냐냥)",
+                    "AQ4 Sample 1 (by 냥냐냥) (with 50ohm resistor)"
+                ]
+            },
+            {
+                "name": "AQ7 Pro",
+                "file": [
+                    "AQ7 Pro Sample 1 (by 냥냐냥)",
+                    "AQ7 Pro Sample 1 (by 냥냐냥) (Azla Crystal Tips)",
+                    "AQ7 Pro Sample 1 (by 냥냐냥) (with 50ohm resistor)"
+                ]
+            },
+            {
+                "name": "DT200",
+                "file": [
+                    "DT200 Sample 1 (by 냥냐냥)"
+                ]
+            },
+            {
+                "name": "DT300",
+                "file": [
+                    "DT300 Sample 1 (by 냥냐냥)",
+                    "DT300 Sample 1 (by 냥냐냥) (with 50ohm resistor)",
+                    "DT300 Sample 1 (by 냥냐냥) (T-APB Tips)"
+                ]
+            },
+            {
+                "name": "DT800",
+                "file": [
+                    "DT800 Sample 1 (by 냥냐냥)",
+                    "DT800 Sample 1 (by 냥냐냥) (Xelastec Tips)"
+                ]
+            }
+        ]
+    },
+    {
         "name": "AYA Audio",
         "phones": [
             {
@@ -387,6 +428,20 @@
                 "prefix": "FD5"
             },
             {
+                "name": "FH5S",
+                "file": [
+                    "FH5S Sample 1 (by 냥냐냥) (000 Settings)",
+                    "FH5S Sample 1 (by 냥냐냥) (100 Settings)",
+                    "FH5S Sample 1 (by 냥냐냥) (010 Settings)",
+                    "FH5S Sample 1 (by 냥냐냥) (001 Settings)",
+                    "FH5S Sample 1 (by 냥냐냥) (110 Settings)",
+                    "FH5S Sample 1 (by 냥냐냥) (101 Settings)",
+                    "FH5S Sample 1 (by 냥냐냥) (011 Settings)",
+                    "FH5S Sample 1 (by 냥냐냥) (111 Settings)",
+                    "FH5S Sample 1 (by 냥냐냥) (111 Settings) (Spiral Dot++ Tips)"
+                ]
+            },
+            {
                 "name": "FW1",
                 "file" : "FW1 Sample 1 (by 냥냐냥) (LG G8 APT-X Codec)"
             }
@@ -489,6 +544,12 @@
     {
         "name": "KBear",
         "phones": [
+            {
+                "name": "KS2",
+                "file": [
+                    "KS2 Sample 1 (by 냥냐냥)"
+                ]
+            },
             {
                 "name": "Stellar",
                 "file": [
@@ -1251,6 +1312,17 @@
                 "file": [
                     "T2 Plus Sample 1 (by 냥냐냥) (Azla Crystal TWS) (L Only)",
                     "T2 Plus Sample 1 (by 냥냐냥) (Final E Tips) (L Only)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Tingker",
+        "phones": [
+            {
+                "name": "Tk300",
+                "file": [
+                    "Tk300 Sample 1 (by 냥냐냥)"
                 ]
             }
         ]
