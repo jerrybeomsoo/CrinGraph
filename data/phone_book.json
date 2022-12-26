@@ -935,6 +935,12 @@
         "name": "qdc",
         "phones": [
             {
+                "name": "Anole VX",
+                "file": [
+                    "Anole VX Sample 1 (by 풀흡음 - SN 40497) (001 Settings) (UC Tips)"
+                ]
+            },
+            {
                 "name": "Dmagic Solo",
                 "file": [
                     "Dmagic Solo Sample 1 (by 냥냐냥)",
