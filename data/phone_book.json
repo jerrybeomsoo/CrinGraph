@@ -12,6 +12,16 @@
         "name": "64Audio",
         "phones": [
             {
+                "name": "U12t",
+                "file": [
+                    "U12t Sample 1 (by 냥냐냥) (M20 Filter) (Short Silicone Tips)",
+                    "U12t Sample 1 (by 냥냐냥) (M20 Filter) (Foam Tips) (L Only)",
+                    "U12t Sample 1 (by 냥냐냥) (M20 Filter) (Long Silicone Tips)",
+                    "U12t Sample 1 (by 냥냐냥) (M15 Filter) (Short Silicone Tips)",
+                    "U12t Sample 1 (by 냥냐냥) (MX Filter) (Short Silicone Tips)"
+                ]
+            },
+            {
                 "name": "U18s",
                 "file": ["U18s Sample 1 (by 풀흡음 - SN 40497) (M15 Filter)",
                          "U18s Sample 1 (by 풀흡음 - SN 40497) (M15 Filter) (10k Peak)",
@@ -1035,6 +1045,13 @@
                 "prefix": "Yume"
             },
             {
+                "name": "Yume II",
+                "file": [
+                    "Yume II Sample 1 (by 냥냐냥)",
+                    "Yume II Sample 1 (by 냥냐냥) (Comply Foam Tips)"
+                ]
+            },
+            {
                 "name": "Yume Midnight",
                 "file": "Yume Midnight Sample 1 (by 냥냐냥)",
                 "prefix": "Yume Midnight"
@@ -1093,6 +1110,14 @@
     {
         "name": "Simgot",
         "phones": [
+            {
+                "name": "EA500",
+                "file": [
+                    "EA500 Sample 1 (by 냥냐냥) (Harman Filter)",
+                    "EA500 Sample 1 (by 냥냐냥) (Simgot Filter)",
+                    "EA500 Sample 1 (by 냥냐냥) (Harman Filter) (Comply Foam Tips)"
+                ]
+            },
             {
                 "name": "EM5",
                 "file": [
@@ -1361,6 +1386,22 @@
     {
         "name": "Ucotech",
         "phones": [
+            {
+                "name": "IL1000",
+                "file": [
+                    "IL1000 Sample 1 (by 냥냐냥)",
+                    "IL1000 Sample 1 (by 냥냐냥) (Gray Tips)",
+                    "IL1000 Sample 1 (by 냥냐냥) (Velvet Tips)"
+                ]
+            },
+            {
+                "name": "IL1000LT",
+                "file": [
+                    "IL1000LT Sample 1 (by 냥냐냥)",
+                    "IL1000LT Sample 1 (by 냥냐냥) (Gray Tips)",
+                    "IL1000LT Sample 1 (by 냥냐냥) (Sony Foam Tips)"
+                ]
+            },
             {
                 "name": "RE-1",
                 "file": [
