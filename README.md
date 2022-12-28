@@ -132,6 +132,8 @@ https://banbeu.com/ 페이지의 배너를 통해 디스코드 서버에 접속�
 
 **FiiO=GOD** : AudioSense AQ4, AQ7 Pro, DT200, DT300, T800, Fiio FH5S, FW1, KBear KS2, Lypertek Z3, Soundpeats Sonic Pro, Tingker Tk300 제공
 
+**IER-M9_Kuromi** : IL1000, IL1000LT 제공
+
 **JohnYang1997** : BQEYZ K2, Final E500, FiiO F3, Ostry KC06A(Sample 2), Etymotic Research mc5, mk5 Sample 2, Phonak PFE 022 제공
 
 **Lastwhitespace** : Apple In-Ear Headphones, FloAudio CALLA, Kinera TYR, KZ EDX, AS16, Moondrop Chu Sample 3, QKZ ZAX2 제공
@@ -155,6 +157,8 @@ https://banbeu.com/ 페이지의 배너를 통해 디스코드 서버에 접속�
 **아소카** : CCA CRA Sample 2, Etymotic Research ER2SE, Final E4000, Tin Hifi T2 Plus 제공
 
 **유키나유키농** : Audio-Technica ATM-IM01, Audio-Technica ATM-IM02, Audiofly AF120, Ultrasone Pyco, Ultrasone Tio, Ultimate Ears UE700 rev.2 제공
+
+**장발장** : 64Audio U12t 제공
 
 **전염** : ER4XR, Shouer S12 (Sample 2) 제공
 
