@@ -5,6 +5,18 @@
             {
                 "name": "FLAT",
                 "file": "FLAT"
+            },
+            {
+                "name": "Reversed Harman IE 2019v2 Target",
+                "file": "Reversed Harman IE 2019v2"
+            },
+            {
+                "name": "Reversed Harman OE 2018 Target",
+                "file": "Reversed Harman OE 2018"
+            },
+            {
+                "name": "Reversed Diffuse Field Target",
+                "file": "Reversed Diffuse Field"
             }
         ]
     },
