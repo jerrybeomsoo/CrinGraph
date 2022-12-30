@@ -155,6 +155,18 @@
                 "prefix": "Airpods Pro"
             },
             {
+                "name": "Airpods Pro 2",
+                "file": [
+                    "Airpods Pro 2 Sample 1 (by 냥냐냥) (Noise Cancellation On) (87db)",
+                    "Airpods Pro 2 Sample 1 (by 냥냐냥) (Noise Cancellation On) (83db)",
+                    "Airpods Pro 2 Sample 1 (by 냥냐냥) (Noise Cancellation On) (79db)",
+                    "Airpods Pro 2 Sample 1 (by 냥냐냥) (Noise Cancellation On) (72db)",
+                    "Airpods Pro 2 Sample 1 (by 냥냐냥) (Noise Cancellation On) (67db)",
+                    "Airpods Pro 2 Sample 1 (by 냥냐냥) (Noise Cancellation Off) (87db)",
+                    "Airpods Pro 2 Sample 1 (by 냥냐냥) (Noise Cancellation Off) (72db)"
+                ]
+            },
+            {
                 "name": "Earpods",
                 "file": [
                     "Earpods Sample 1 (by 풀흡음 - SN 40497) (With Foam)",
@@ -221,6 +233,12 @@
         "name": "AudioSense",
         "phones": [
             {
+                "name": "AQ0",
+                "file": [
+                    "AQ0 Sample 1 (by 냥냐냥)"
+                ]
+            },
+            {
                 "name": "AQ4",
                 "file": [
                     "AQ4 Sample 1 (by 냥냐냥)",
@@ -253,7 +271,8 @@
                 "name": "T800",
                 "file": [
                     "T800 Sample 1 (by 냥냐냥)",
-                    "T800 Sample 1 (by 냥냐냥) (Xelastec Tips)"
+                    "T800 Sample 1 (by 냥냐냥) (Xelastec Tips)",
+                    "T800 Sample 1 (by 냥냐냥) (with 50ohm resistor)"
                 ]
             }
         ]
@@ -492,6 +511,13 @@
                 "prefix": "E500"
             },
             {
+                "name": "E3000",
+                "file": [
+                    "E3000 Sample 1 (by 냥냐냥)",
+                    "E3000 Sample 1 (by 냥냐냥) (Deep Insertion)"
+                ]
+            },
+            {
                 "name": "E4000",
                 "file": [
                          "E4000 Sample 1 (by 냥냐냥)",
@@ -567,9 +593,33 @@
         "name": "KBear",
         "phones": [
             {
+                "name": "Aurora",
+                "file": [
+                    "Aurora Sample 1 (by 냥냐냥)"
+                ]
+            },
+            {
+                "name": "KS1",
+                "file": [
+                    "KS1 Sample 1 (by 냥냐냥)"
+                ]
+            },
+            {
                 "name": "KS2",
                 "file": [
                     "KS2 Sample 1 (by 냥냐냥)"
+                ]
+            },
+            {
+                "name": "Lark",
+                "file": [
+                    "Lark Sample 1 (by 냥냐냥)"
+                ]
+            },
+            {
+                "name": "Robin",
+                "file": [
+                    "Robin Sample 1 (by 냥냐냥)"
                 ]
             },
             {
@@ -646,6 +696,12 @@
                 "name": "ZEX Pro (CRN)",
                 "file": "ZEX Pro Sample 1 (by 냥냐냥)",
                 "prefix": "ZEX Pro"
+            },
+            {
+                "name": "ZSN Pro X",
+                "file": [
+                    "ZSN PRO X Sample 1 (by 냥냐냥)"
+                ]
             }
         ]
     },
@@ -1371,6 +1427,19 @@
                 "name": "Tk300",
                 "file": [
                     "Tk300 Sample 1 (by 냥냐냥)"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "TRI",
+        "phones": [
+            {
+                "name": "I3 Pro",
+                "file": [
+                   "I3 Pro Sample 1 (by 냥냐냥)",
+                   "I3 Pro Sample 1 (by 냥냐냥) (Clarion Tips)",
+                   "I3 Pro Sample 1 (by 냥냐냥) (UC Tips)" 
                 ]
             }
         ]
