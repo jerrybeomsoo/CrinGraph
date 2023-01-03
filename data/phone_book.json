@@ -1525,6 +1525,13 @@
         "name": "Ultimate Ears",
         "phones": [
             {
+                "name": "TRIPLE.FI",
+                "file": [
+                    "TRIPLE.FI 10 Sample 1 (by 냥냐냥)",
+                    "TRIPLE.FI 10 Sample 1 (by 냥냐냥) (T-APB Treble Tips)"
+                ]
+            },
+            {
                 "name": "UE700 rev.2",
                 "file": "UE700 rev.2 Sample 1 (by 냥냐냥)",
                 "prefix": "UE700 rev.2"
