@@ -195,6 +195,17 @@
         ]
     },
     {
+        "name": "Ashidavox",
+        "phones": [
+            {
+                "name": "ST-90-07",
+                "file": [
+                    "ST-90-07 Sample 1 (by 풀흡음 - SN 40497)"
+                ]
+            }
+        ]
+    },
+    {
         "name": "ATOMIC FLOYD",
         "phones": [
             {
@@ -217,6 +228,12 @@
     {
         "name": "Audio-Technica",
         "phones": [
+            {
+                "name": "ATH-DN1000USB",
+                "file": [
+                    "ATH-DN1000USB Sample 1 (by 풀흡음 - SN 40497)"
+                ]
+            },
             {
                 "name": "ATH-IM01",
                 "file": "ATH-IM01 Sample 1 (by 냥냐냥)",
@@ -983,6 +1000,15 @@
 				"file": "PFE 111 Sample 1 (by Halc6on) (Gray Filter)",
 				"prefix": "PFE 111"
 			}
+        ]
+    },
+    {
+        "name": "Precide",
+        "phones": [
+            {
+                "name": "Ergo 2",
+                "file": "Ergo 2 Sample 1 (by 풀흡음 - SN 40497)"
+            }
         ]
     },
     {
