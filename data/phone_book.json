@@ -1007,7 +1007,9 @@
         "phones": [
             {
                 "name": "Ergo 2",
-                "file": "Ergo 2 Sample 1 (by 풀흡음 - SN 40497)"
+                "file": [
+                    "Ergo 2 Sample 1 (by 풀흡음 - SN 40497)"
+                ]
             }
         ]
     },
