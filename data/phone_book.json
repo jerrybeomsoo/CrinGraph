@@ -1432,6 +1432,18 @@
                 "name": "Shimin Li",
                 "file": "Shimin Li Sample 1 (by 냥냐냥) (T-APB Bass Tips)",
                 "prefix": "Shimin Li"
+            },
+            {
+                "name": "Waner SG",
+                "file": [
+                    "Waner SG Sample 1 (by 냥냐냥)"
+                ]
+            },
+            {
+                "name": "Zeitan Wu",
+                "file":[
+                    "Zeitan Wu Sample 1 (by 냥냐냥)"
+                ]
             }
         ]
     },
@@ -1482,6 +1494,24 @@
                    "I3 Pro Sample 1 (by 냥냐냥)",
                    "I3 Pro Sample 1 (by 냥냐냥) (Clarion Tips)",
                    "I3 Pro Sample 1 (by 냥냐냥) (UC Tips)" 
+                ]
+            },
+            {
+                "name": "Kai",
+                "file": [
+                    "Kai Sample 1 (by 냥냐냥) (Bass Tips)",
+                    "Kai Sample 1 (by 냥냐냥) (Treble Tips)",
+                    "Kai Sample 1 (by 냥냐냥) (TRI Clarion Tips)"
+                ]
+            },
+            {
+                "name": "Starsea",
+                "file": [
+                    "Starsea Sample 1 (by 냥냐냥) (00 Settings)",
+                    "Starsea Sample 1 (by 냥냐냥) (01 Settings)",
+                    "Starsea Sample 1 (by 냥냐냥) (10 Settings)",
+                    "Starsea Sample 1 (by 냥냐냥) (11 Settings)",
+                    "Starsea Sample 1 (by 냥냐냥) (11 Settings) (KBear 08 Tips)"
                 ]
             }
         ]
