@@ -92,8 +92,16 @@
         "phones": [
             {
                 "name": "HS1300SS",
-                "file": "HS1300SS Sample 1 (by 냥냐냥) (T-APB Bass Tips)",
+                "file": ["HS1300SS Sample 1 (by 냥냐냥) (T-APB Bass Tips)"],
                 "prefix": "HS1300SS"
+            },
+            {
+                "name": "HS1670SS",
+                "file": [
+                    "HS1670SS Sample 1 (by 냥냐냥) (AET07 Tips)",
+                    "HS1670SS Sample 1 (by 냥냐냥) (AET08 Tips)",
+                    "HS1670SS Sample 1 (by 냥냐냥) (Azla Crystal Tips)"
+                ]
             }
         ]
     },
@@ -1213,6 +1221,12 @@
                     "KSE1500 Sample 1 (by 냥냐냥) (Loudness Preset)",
                     "KSE1500 Sample 1 (by 냥냐냥) (De-ess Preset)"
                 ]
+            },
+            {
+                "name": "SE315",
+                "file": [
+                    "SE315 Sample 1 (by 냥냐냥) (CP100 Tips)"
+                ]
             }
         ]
     },
@@ -1451,6 +1465,12 @@
         "name": "Thieaudio",
         "phones": [
             {
+                "name": "Legacy 2",
+                "file": [
+                    "Legacy 2 Sample 1 (by 냥냐냥)"
+                ]
+            },
+            {
                 "name": "Legacy 4",
                 "file": [
                     "Legacy 4 Sample 1 (by 냥냐냥) (00 Settings)",
@@ -1590,6 +1610,12 @@
                 "file": [
                     "TRIPLE.FI 10 Sample 1 (by 냥냐냥)",
                     "TRIPLE.FI 10 Sample 1 (by 냥냐냥) (T-APB Treble Tips)"
+                ]
+            },
+            {
+                "name": "UE600",
+                "file": [
+                    "UE600 Sample 1 (by 냥냐냥)"
                 ]
             },
             {
