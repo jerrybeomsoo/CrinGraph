@@ -132,6 +132,8 @@ https://banbeu.com/ 페이지의 배너를 통해 디스코드 서버에 접속�
 
 **FiiO=GOD** : AudioSense AQ4, AQ7 Pro, DT200, DT300, T800, Fiio FH5S, FW1, KBear KS2, Lypertek Z3, Soundpeats Sonic Pro, Tingker Tk300 제공
 
+**Headup** : Tansho Mirai Sands 제공
+
 **IER-M9_Kuromi** : IL1000, IL1000LT 제공
 
 **JohnYang1997** : BQEYZ K2, Final E500, FiiO F3, Ostry KC06A(Sample 2), Etymotic Research mc5, mk5 Sample 2, Phonak PFE 022 제공
@@ -151,6 +153,8 @@ https://banbeu.com/ 페이지의 배너를 통해 디스코드 서버에 접속�
 **뎃데로게.** : Moondrop Aria (2018) 제공
 
 **돼지고닉해드** : Shouer S12, Muse Hifi Power, Seeaudio Bravery 제공
+
+**미친소니빠** : Sennheiser MOMENTUM In-Ear, Sony IER-H500A, MDR-EX15AP, MDR-EX600, MDR-EX800ST, TRN M10, Truthear Hola 제공
 
 **보안폴더** : 7hz Dioko, Timeless(Sample 2), Final A3000, Tanchjim Zero 제공
 
