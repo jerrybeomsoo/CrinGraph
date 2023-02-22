@@ -364,6 +364,16 @@
         ]
     },
     {
+        "name": "Cowon",
+        "phones": [
+            {
+                "name": "EG2",
+                "file": "Cowon EG2 Sample 1 (by ER4SR)",
+                "prefix": "EG2"
+            }
+        ]
+    },
+    {
         "name": "Craftears",
         "phones": [
             {
