@@ -1184,6 +1184,13 @@
                 "prefix": "IE400 Pro"
             },
             {
+                "name": "MOMENTUM In-Ear",
+                "file": [
+                    "MOMENTUM In-Ear Sample 1 (by 냥냐냥)",
+                    "MOMENTUM In-Ear Sample 1 (by 냥냐냥) (Shallower Insertion)"
+                ]
+            },
+            {
                 "name": "MX400 II",
                 "file": [
                     "MX400 II Sample 1 (by 풀흡음 - SN 40497) (With Foam)",
@@ -1331,6 +1338,12 @@
         "name": "Sony",
         "phones": [
             {
+                "name": "IER-H500A",
+                "file": [
+                    "IER-H500A Sample 1 (by 냥냐냥)"
+                ]
+            },
+            {
                 "name": "IER-M7",
                 "file": ["IER-M7 Sample 1 (by ER4SR) (Hybrid Silicone M)",
                          "IER-M7 Sample 2 (by 냥냐냥) (Hybrid Silicone Tips)",
@@ -1344,6 +1357,24 @@
                 "name": "IER-Z1R",
                 "file": "IER-Z1R Sample 1 (by ER4SR) (Hybrid Silicone M)",
 		"prefix": "IER-Z1R"
+            },
+            {
+                "name": "MDR-EX15AP",
+                "file": [
+                    "MDR-EX15AP Sample 1 (by 냥냐냥)"
+                ]
+            },
+            {
+                "name": "MDR-EX600",
+                "file": [
+                    "MDR-EX600 Sample 1 (by 냥냐냥)"
+                ]
+            },
+            {
+                "name": "MDR-EX800ST",
+                "file": [
+                    "MDR-EX800ST Sample 1 (by 냥냐냥)"
+                ]
             },
             {
                 "name": "WF-1000XM4",
@@ -1462,6 +1493,24 @@
         ]
     },
     {
+        "name": "Tansio Mirai",
+        "phones": [
+            {
+                "name": "Sands",
+                "file": [
+                    "Sands Sample 1 (by 냥냐냥) (111 Settings)",
+                    "Sands Sample 1 (by 냥냐냥) (000 Settings)",
+                    "Sands Sample 1 (by 냥냐냥) (001 Settings)",
+                    "Sands Sample 1 (by 냥냐냥) (010 Settings)",
+                    "Sands Sample 1 (by 냥냐냥) (100 Settings)",
+                    "Sands Sample 1 (by 냥냐냥) (011 Settings)",
+                    "Sands Sample 1 (by 냥냐냥) (101 Settings)",
+                    "Sands Sample 1 (by 냥냐냥) (110 Settings)"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Thieaudio",
         "phones": [
             {
@@ -1555,9 +1604,27 @@
         "name": "TRN",
         "phones": [
             {
+                "name": "M10",
+                "file": [
+                    "M10 Sample 1 (by 냥냐냥)"
+                ]
+            },
+            {
                 "name": "MT1",
                 "file": "MT1 Sample 1 (by 냥냐냥)",
                 "prefix": "MT1"
+            }
+        ]
+    },
+    {
+        "name": "Truthear",
+        "phones": [
+            {
+                "name": "Hola",
+                "file": [
+                    "Hola Sample 1 (by 냥냐냥)",
+                    "Hola Sample 1 (by 냥냐냥) (Wide Bore Tips)"
+                ]
             }
         ]
     },
