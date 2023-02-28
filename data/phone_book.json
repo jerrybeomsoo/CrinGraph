@@ -409,7 +409,10 @@
             {
                 "name": "Zen",
                 "file": [
-                    "Zen Sample 1 (by 냥냐냥)"
+                    "Zen Sample 1 (by 냥냐냥)",
+                    "Zen Sample 2 (by 냥냐냥) (Black Tips)",
+                    "Zen Sample 2 (by 냥냐냥) (White Tips)",
+                    "Zen Sample 2 (by 냥냐냥) (Sony Foam Tips)"
                 ]
             }
         ]
@@ -1383,7 +1386,7 @@
             {
                 "name": "MDR-EX800ST",
                 "file": [
-                    "MDR-EX800ST Sample 1 (by 냥냐냥)"
+                    "MDR-EX800ST Sample 1 (by 냥냐냥) (Nozzle Mod)"
                 ]
             },
             {
