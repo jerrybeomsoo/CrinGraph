@@ -140,7 +140,7 @@ https://banbeu.com/ 페이지의 배너를 통해 디스코드 서버에 접속�
 
 **Lastwhitespace** : Apple In-Ear Headphones, FloAudio CALLA, Kinera TYR, KZ EDX, AS16, Moondrop Chu Sample 3, QKZ ZAX2 제공
 
-**Ricopam** : Beyerdynamic DTX 41 iE, KZ AS10, TRN MT1, Moondrop SSR(Sample 2) 제공
+**Ricopam** : Beyerdynamic DTX 41 iE, DUNU Zen Sample 2, KZ AS10, TRN MT1, Moondrop SSR(Sample 2) 제공
 
 **RSGARU** : Moondrop Aria Snow Edition Sample 3, Chu Sample 4, Kato Sample 2, Simgot EN1000, Tanchjim Zero Sample 2 제공
 
