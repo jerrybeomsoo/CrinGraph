@@ -1226,6 +1226,13 @@
 					"S12 Sample 4 (by Halc6on)"
                 ],
                 "prefix": "S12"
+            },
+            {
+                "name": "S12 PRO",
+                "file": [
+                    "S12 PRO Sample 1 (by 이소양)",
+                    "S12 PRO Sample 1 (by 이소양) (Foam Tips)"
+                ]
             }
         ]
     },
@@ -1675,6 +1682,12 @@
 					"RE-1 Sample 3 (by Halc6on)"
                 ],
                 "prefix": "RE-1"
+            },
+            {
+                "name": "RE-1 PRO",
+                "file": [
+                    "RE-1 PRO Sample 1 (by 이소양)"
+                ]
             },
             {
                 "name": "RE-2",
