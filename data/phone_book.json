@@ -377,9 +377,24 @@
         "name": "Craftears",
         "phones": [
             {
+                "name": "C4",
+                "file": "C4 Sample 1 (by Halc6on)",
+                "prefix": "C4"
+            },
+            {
                 "name": "C6",
                 "file": "C6 Sample 1 (by Halc6on)",
                 "prefix": "C6"
+            }
+        ]
+    },
+    {
+        "name": "Custom Art",
+        "phones": [
+            {
+                "name": "Music 1",
+                "file": "Music 1 (custom) Sample 1 (by Halc6on)",
+                "prefix": "Music 1"
             }
         ]
     },
@@ -799,6 +814,16 @@
         "name": "LG",
         "phones": [
             {
+                "name": "LSVI",
+                "file": "LSVI Sample 1 (by Halc6on)",
+                "prefix": "LSVI"
+            }
+        ]
+    },
+    {
+        "name": "Lark Studio",
+        "phones": [
+            {
                 "name": "USB-C Earphones",
                 "file": "USB-C Earphones Sample 1 (by ER4SR) (Orza L Tips)",
                 "prefix": "USB-C Earphones"
@@ -994,6 +1019,16 @@
         ]
     },
     {
+        "name": "Nostalgia Audio",
+        "phones": [
+            {
+                "name": "Tesseract",
+                "file": "Tesseract Sample 1 (by Halc6on)",
+                "prefix": "Tesseract"
+            }
+        ]
+    },
+    {
         "name": "nura",
         "phones": [
             {
@@ -1139,6 +1174,51 @@
                 "name": "CL2",
                 "file": "CL2 Sample 1 (by Halc6on)",
                 "prefix": "CL2"
+            }
+        ]
+    },
+	{
+        "name": "Rhapsodio",
+        "phones": [
+            {
+                "name": "Enma",
+                "file": "Enma Sample 1 (by Halc6on)",
+                "prefix": "Enma"
+            },
+            {
+                "name": "Infinity mk2",
+                "file": "Infinity mk2 Sample 1 (by Halc6on)",
+                "prefix": "Infinity mk2"
+            },
+            {
+                "name": "Infinity Plus",
+                "file": "Infinity Plus Sample 1 (by Halc6on)",
+                "prefix": "Infinity Plus"
+            },
+            {
+                "name": "Infinity Ultra",
+                "file": "Infinity Ultra Sample 1 (by Halc6on)",
+                "prefix": "Infinity Ultra"
+            },
+            {
+                "name": "Supreme 1",
+                "file": "Supreme 1 Sample 1 (by Halc6on)",
+                "prefix": "Supreme 1"
+            },
+            {
+                "name": "Supreme 2",
+                "file": "Supreme 2 Sample 1 (by Halc6on)",
+                "prefix": "Supreme 2"
+            },
+            {
+                "name": "Supreme 3",
+                "file": "Supreme 3 Sample 1 (by Halc6on)",
+                "prefix": "Supreme 3"
+            },
+            {
+                "name": "Thousand Sound",
+                "file": "Thousand Sound Sample 1 (by Halc6on)",
+                "prefix": "Thousand Sound"
             }
         ]
     },
