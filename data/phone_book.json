@@ -814,9 +814,9 @@
         "name": "LG",
         "phones": [
             {
-                "name": "LSVI",
-                "file": "LSVI Sample 1 (by Halc6on)",
-                "prefix": "LSVI"
+                "name": "USB-C Earphones",
+                "file": "USB-C Earphones Sample 1 (by ER4SR) (Orza L Tips)",
+                "prefix": "USB-C Earphones"
             }
         ]
     },
@@ -824,9 +824,9 @@
         "name": "Lark Studio",
         "phones": [
             {
-                "name": "USB-C Earphones",
-                "file": "USB-C Earphones Sample 1 (by ER4SR) (Orza L Tips)",
-                "prefix": "USB-C Earphones"
+                "name": "LSVI",
+                "file": "LSVI Sample 1 (by Halc6on)",
+                "prefix": "LSVI"
             }
         ]
     },
