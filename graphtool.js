@@ -78,6 +78,9 @@ doc.html(`
       </div>
     </div>
 
+    <div class="adjust">
+    </div>
+
       <div class="manage">
         <table class="manageTable">
           <colgroup>
@@ -710,8 +713,26 @@ function smooth(y, c) {
 }
 
 function smoothPhone(p) {
-    if (p.smooth !== smooth_level) {
-        p.channels = p.rawChannels.map(
+    // first, apply the tilting
+    var chans = [...p.rawChannels];
+    var isTilted = false;
+
+    var t = parseFloat(document.querySelector("#tar_tilt").value);
+    var b = parseFloat(document.querySelector("#tar_bassy").value);
+
+    if (!p.tilt) p.tilt = 0;
+    if (!p.bassy) p.bassy = 0;
+
+    if (p.isTarget && (p.tilt !== t || p.bassy !== b)) {
+        chans = chans.map(c => tilting(c, t, b));
+        p.tilt = t;
+        p.bassy = b;
+        isTilted = true;
+        normalizePhone(p);
+    }
+
+    if (p.smooth !== smooth_level || isTilted) {
+        p.channels = chans.map(
             c => c ? smooth(c.map(d => d[1]), c).map((d, i) => [c[i][0], d]) : c
         );
         p.smooth = smooth_level;
@@ -1705,6 +1726,37 @@ function linear_equation(a, b, c, d, x) {
     return eval((d - c) / (b - a) * (x - a) + c);
 }
 
+function updateTilt() {
+    activePhones.forEach(smoothPhone, activePhones);
+    updatePaths();
+}
+
+function tilting(p, t, b) {
+    var af = new Array(p.length);
+
+    for (var i = 0; i < p.length; i++) {
+        af[i] = [...p[i]];
+
+        // 200hz 이상 대역만  틸트  적용 
+        if (af[i][0] >= 200) {
+            af[i][1] += t * (Math.LOG2E * Math.log(p[i][0]) - Math.log2(200));
+            // const frequencyFactor = Math.pow(2, (Math.log2(frequency) - Math.log2(200)) * dbPerOctave / 10);
+            // const tiltedDbSPL = dbSPL + 10 * Math.log10(frequencyFactor);
+        }
+    }
+
+    return Equalizer.apply(af, b ? [
+            {
+              disabled: false,
+              type: 'LSQ',
+              freq: 105,
+              q: 0.71,
+              gain: b,
+              adjust: 'boost',
+            },
+          ]:[]);
+}
+
 function loudness_equalizer(p, phon) {
     if(phon < 30) {
         phon = 30;
@@ -1891,6 +1943,16 @@ d3.json(typeof PHONE_BOOK !== "undefined" ? PHONE_BOOK
                 if (isInit(t.fileName)) inits.push(t);
             });
         }
+
+        var adjust = d3.select(".adjust").append("div", ".adjust-target");
+        adjust.append("span").text("CUSTOM TARGET:");
+        adjust.append("label").text("Bass (dB)").append("input")
+            .attrs({type: "number", step: 1, value: 0, id : 'tar_bassy'})
+            .on("change input", () => updateTilt());
+
+        adjust.append("label").text("Tilt (dB/oct)").append("input")
+            .attrs({type: "number", step: 0.5, value: 0, id: 'tar_tilt'})
+            .on("change input", () => updateTilt());
 
         inits.map(p => p.copyOf ? showVariant(p.copyOf, p, initMode)
             : showPhone(p, 0, 1, initMode));
