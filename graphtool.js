@@ -1772,6 +1772,8 @@ function calculateLoudness(spl, frequency) {
   
     // Calculate loudness in phons
     const loudness = 10 * Math.log10(specificLoudness);
+
+    console.log(loudness);
   
     return loudness;
 }
