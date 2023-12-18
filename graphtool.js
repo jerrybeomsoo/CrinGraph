@@ -1793,12 +1793,14 @@ function loudness_equalizer(p, phon) {
     if(!p.isTarget) {
         for(let i=0;i<p.rawChannels.length;i++) {
             p.rawChannels[i].map((point) => [point[0], point[1] + calculateLoudness(phon, point[0]) - calculateLoudness(p.loudness, point[0])]);
+            console.log("done");
         }
         showPhone(p, false);
     }
     else {
         for(let i=0;i<p.rawChannels.length;i++) {
             p.rawChannels[i].map((point) => [point[0], point[1] - calculateLoudness(phon, point[0]) + calculateLoudness(p.loudness, point[0])]);
+            console.log("done");
         }
         showPhone(p, true);
     }
