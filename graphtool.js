@@ -1793,7 +1793,10 @@ function loudness_equalizer(p, phon) {
     if(!p.isTarget) {
         for(let i=0;i<p.rawChannels.length;i++) {
             p.rawChannels[i].map(function(element){
-                return new Array(element[0], element[1] + calculateLoudness(phon) - calculateLoudness(p.loudness))
+                console.log(element[0]);
+                console.log(element[1]);
+                let newSPL = element[1] + calculateLoudness(phon) - calculateLoudness(p.loudness);
+                return new Array(element[0], newSPL);
             })
         }
         showPhone(p, false);
@@ -1801,13 +1804,15 @@ function loudness_equalizer(p, phon) {
     else {
         for(let i=0;i<p.rawChannels.length;i++) {
             p.rawChannels[i].map(function(element){
-                return new Array(element[0], element[1] - calculateLoudness(phon) + calculateLoudness(p.loudness))
+                console.log(element[0]);
+                console.log(element[1]);
+                let newSPL = element[1] - calculateLoudness(phon) + calculateLoudness(p.loudness);
+                return new Array(element[0], newSPL);
             })
         }
         showPhone(p, true);
     }
     p.loudness = phon;
-    activeElem.focus();
     console.log(p);
 };
 
