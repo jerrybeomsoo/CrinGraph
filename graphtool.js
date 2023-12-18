@@ -1757,34 +1757,44 @@ function tilting(p, t, b) {
           ]:[]);
 }
 
-function calculateLoudness(spl, frequency) {
-    // Calculate critical bandwidth in Bark
-    const bark = 13.232224 * Math.atanh(0.000556 * frequency);
-
-    console.log(bark);
+function iso226(phon, targetFreq) {
+    // User-defined values
+    const Ln = phon;
   
-    // Convert sound pressure level to sone units
-    const sone = Math.pow(10, 0.1 * spl) / 2.5 * Math.pow(10, -4);
-    
-    console.log(sone);
-
-    // Calculate excitation
-    const excitation = sone * Math.exp(-24.6911 * Math.pow(bark, 4) + 66.53 * Math.pow(bark, 2) - 166.0861 + 21.48 * bark);
-
-    console.log(excitation);
-
-    // Calculate specific loudness
-    const specificLoudness = 4 * Math.exp(excitation / 8.5258227);
-    
-    console.log(specificLoudness);
-    
-    // Calculate loudness in phons
-    const loudness = 10 * Math.log10(specificLoudness);
-
-    console.log(loudness);
+    // Access parameters from object
+    const { f, af, Lu, Tf } = iso223_params;
   
-    return loudness;
-}
+    // Generate desired frequency range (modify if needed)
+    const targetFreqRange = f.slice(); // Use existing f array for simplicity
+  
+    // Deriving sound pressure level
+    const Af = 4.47e-3 * (Math.pow(10, 0.025 * Ln) - 1.15) + (0.4 * Math.pow(10, (Tf + Lu) / 10 - 9)).map((v, i) => Math.pow(v, af[i]));
+    const Lp = Af.map((a, i) => 10 / af[i] * Math.log10(a) - Lu[i] + 94);
+  
+    // Filter values for desired frequency range and target frequency
+    const targetIndex = targetFreqRange.findIndex(freq => freq === targetFreq);
+    if (targetIndex === -1) {
+      // Perform interpolation if target frequency not found exactly
+      const [lowerFreq, upperFreq] = getAdjacentFrequencies(targetFreqRange, targetFreq);
+      const lowerLp = Lp[targetFreqRange.indexOf(lowerFreq)];
+      const upperLp = Lp[targetFreqRange.indexOf(upperFreq)];
+      return interpolateLp(lowerFreq, lowerLp, upperFreq, upperLp, targetFreq);
+    } else {
+      return Lp[targetIndex];
+    }
+  }
+  
+  // Helper functions for interpolation (if needed)
+  function getAdjacentFrequencies(f, targetFreq) {
+    // Find closest lower and upper frequencies
+    return [f.find(freq => freq <= targetFreq), f.find(freq => freq >= targetFreq)];
+  }
+  
+  function interpolateLp(lowerFreq, lowerLp, upperFreq, upperLp, targetFreq) {
+    // Implement linear interpolation based on frequency and Lp values
+    const slope = (upperLp - lowerLp) / (upperFreq - lowerFreq);
+    return lowerLp + slope * (targetFreq - lowerFreq);
+  }
 
 function loudness_equalizer(p, phon) {
     if(phon < 30) {
@@ -1802,14 +1812,14 @@ function loudness_equalizer(p, phon) {
     
     if(!p.isTarget) {
         for(let i=0;i<p.rawChannels.length;i++) {
-            p.rawChannels[i].map((point) => [point[0], point[1] + calculateLoudness(phon, point[0]) - calculateLoudness(p.loudness, point[0])]);
+            p.rawChannels[i].map((point) => [point[0], point[1] + iso226(phon, point[0]) - iso226(p.loudness, point[0])]);
             console.log("done");
         }
         showPhone(p, false);
     }
     else {
         for(let i=0;i<p.rawChannels.length;i++) {
-            p.rawChannels[i].map((point) => [point[0], point[1] - calculateLoudness(phon, point[0]) + calculateLoudness(p.loudness, point[0])]);
+            p.rawChannels[i].map((point) => [point[0], point[1] - iso226(phon, point[0]) + iso226(p.loudness, point[0])]);
             console.log("done");
         }
         showPhone(p, true);
