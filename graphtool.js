@@ -1774,7 +1774,7 @@ function calculateLoudness(spl, frequency) {
     const loudness = 10 * Math.log10(specificLoudness);
   
     return loudness;
-  }
+}
 
 function loudness_equalizer(p, phon) {
     if(phon < 30) {
@@ -1792,15 +1792,13 @@ function loudness_equalizer(p, phon) {
     
     if(!p.isTarget) {
         for(let i=0;i<p.rawChannels.length;i++) {
-            p.rawChannels[i].map((point) => [point[0], point[1] + calculateLoudness(phon) - calculateLoudness(p.loudness)]);
+            p.rawChannels[i].map((point) => [point[0], point[1] + calculateLoudness(phon, point[0]) - calculateLoudness(p.loudness, point[0])]);
         }
         showPhone(p, false);
     }
     else {
         for(let i=0;i<p.rawChannels.length;i++) {
-            for(let i=0;i<p.rawChannels.length;i++) {
-                p.rawChannels[i].map((point) => [point[0], point[1] - calculateLoudness(phon) + calculateLoudness(p.loudness)]);
-            }
+            p.rawChannels[i].map((point) => [point[0], point[1] - calculateLoudness(phon, point[0]) + calculateLoudness(p.loudness, point[0])]);
         }
         showPhone(p, true);
     }
