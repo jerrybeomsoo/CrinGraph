@@ -1759,7 +1759,7 @@ function tilting(p, t, b) {
 
 function calculateLoudness(spl, frequency) {
     // Calculate critical bandwidth in Bark
-    const bark = 13.232224 * Math.atanh(0.000556 * frequency);
+    const bark = 13.232224 * Math.log(0.000556 * frequency + 1);
 
     console.log(bark);
   
@@ -1777,7 +1777,7 @@ function calculateLoudness(spl, frequency) {
     const specificLoudness = 4 * Math.exp(excitation / 8.5258227);
     
     console.log(specificLoudness);
-    
+
     // Calculate loudness in phons
     const loudness = 10 * Math.log10(specificLoudness);
 
