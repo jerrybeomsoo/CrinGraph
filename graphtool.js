@@ -1836,6 +1836,7 @@ function loudness_equalizer(p, phon) {
     }
     p.loudness = phon;
     activeElem.focus();
+    console.log(p);
 };
 
 d3.json(typeof PHONE_BOOK !== "undefined" ? PHONE_BOOK
