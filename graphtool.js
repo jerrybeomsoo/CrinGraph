@@ -1757,6 +1757,25 @@ function tilting(p, t, b) {
           ]:[]);
 }
 
+function calculateLoudness(spl, frequency) {
+    // Calculate critical bandwidth in Bark
+    const bark = 13.232224 * Math.atanh(0.000556 * frequency);
+  
+    // Convert sound pressure level to sone units
+    const sone = Math.pow(10, 0.1 * spl) / 2.5 * Math.pow(10, -4);
+  
+    // Calculate excitation
+    const excitation = sone * Math.exp(-24.6911 * Math.pow(bark, 4) + 66.53 * Math.pow(bark, 2) - 166.0861 + 21.48 * bark);
+  
+    // Calculate specific loudness
+    const specificLoudness = 4 * Math.exp(excitation / 8.5258227);
+  
+    // Calculate loudness in phons
+    const loudness = 10 * Math.log10(specificLoudness);
+  
+    return loudness;
+  }
+
 function loudness_equalizer(p, phon) {
     if(phon < 30) {
         phon = 30;
@@ -1768,70 +1787,23 @@ function loudness_equalizer(p, phon) {
         p.loudness = 85;
     }
     if(phon == p.loudness) return;
-    let Lp = new Array(29);
-    let Ln = p.loudness;
-    let Af = new Array(29);
-    for(let i=0;i<29;i++) {
-        Af[i] = (4.47*Math.pow(10, -3)*(Math.pow(10, 0.025*Ln) - 1.15) + Math.pow((0.4*Math.pow(10, ((iso223_params.T_f[i] + iso223_params.L_U[i]) / 10) - 9)), iso223_params.a_f[i]));
-    }
-    let Lp1 = new Array(29);
-    for(let i=0;i<29;i++) {
-        Lp1[i] = (10/iso223_params.a_f[i]*Math.log10(Af[i]) - iso223_params.L_U[i] + 94);
-    }
-    Ln = phon;
-    for(let i=0;i<29;i++) {
-        Af[i] = (4.47*Math.pow(10, -3)*(Math.pow(10, 0.025*Ln) - 1.15) + Math.pow((0.4*Math.pow(10, ((iso223_params.T_f[i] + iso223_params.L_U[i]) / 10) - 9)), iso223_params.a_f[i]));
-    }
-    let Lp2 = new Array(29);
-    for(let i=0;i<29;i++) {
-        Lp2[i] = (10/iso223_params.a_f[i]*Math.log10(Af[i]) - iso223_params.L_U[i] + 94);
-    }
-    if(p.isTarget) {
-        for(let i=0;i<29;i++) {
-            Lp[i] = Lp2[i] - Lp1[i];
-        }
-    }
-    else {
-        for(let i=0;i<29;i++) {
-            Lp[i] = Lp1[i] - Lp2[i];
-        }
-    }
+
     let activeElem = document.activeElement;
     
     if(!p.isTarget) {
         for(let i=0;i<p.rawChannels.length;i++) {
-            for(let j=0;j<p.rawChannels[i].length;j++) {
-                let k = 0;
-                for(;k<iso223_params.f.length;k++) {
-                    if(p.rawChannels[i][j][0] <= iso223_params.f[k]) break;
-                }
-                if(k == iso223_params.f.length || k == iso223_params.f.length - 1) {
-                    p.rawChannels[i][j][1] += parseFloat(p.loudness - phon);
-                }
-                else {
-                    p.rawChannels[i][j][1] += parseFloat(linear_equation(iso223_params.f[k], iso223_params.f[k+1], Lp[k], Lp[k+1], p.rawChannels[i][j][0]));
-                }
-            }
+            p.rawChannels[i].map(function(element){
+                return new Array(element[0], element[1] + calculateLoudness(phon) - calculateLoudness(p.loudness))
+            })
         }
         showPhone(p, false);
     }
     else {
         for(let i=0;i<p.rawChannels.length;i++) {
-            for(let j=0;j<p.rawChannels[i].length;j++) {
-                let k = 0;
-                for(;k<iso223_params.f.length;k++) {
-                    if(p.rawChannels[i][j][0] <= iso223_params.f[k]) break;
-                }
-                if(k == iso223_params.f.length || k == iso223_params.f.length - 1) {
-                    p.rawChannels[i][j][1] -= parseFloat(p.loudness - phon);
-                }
-                else {
-                    p.rawChannels[i][j][1] -= parseFloat(linear_equation(iso223_params.f[k], iso223_params.f[k+1], Lp[k], Lp[k+1], p.rawChannels[i][j][0]));
-                }
-            }
+            p.rawChannels[i].map(function(element){
+                return new Array(element[0], element[1] - calculateLoudness(phon) + calculateLoudness(p.loudness))
+            })
         }
-        console.log(p);
-        removePhone(p);
         showPhone(p, true);
     }
     p.loudness = phon;
