@@ -1760,16 +1760,24 @@ function tilting(p, t, b) {
 function calculateLoudness(spl, frequency) {
     // Calculate critical bandwidth in Bark
     const bark = 13.232224 * Math.atanh(0.000556 * frequency);
+
+    console.log(bark);
   
     // Convert sound pressure level to sone units
     const sone = Math.pow(10, 0.1 * spl) / 2.5 * Math.pow(10, -4);
-  
+    
+    console.log(sone);
+
     // Calculate excitation
     const excitation = sone * Math.exp(-24.6911 * Math.pow(bark, 4) + 66.53 * Math.pow(bark, 2) - 166.0861 + 21.48 * bark);
-  
+
+    console.log(excitation);
+
     // Calculate specific loudness
     const specificLoudness = 4 * Math.exp(excitation / 8.5258227);
-  
+    
+    console.log(specificLoudness);
+    
     // Calculate loudness in phons
     const loudness = 10 * Math.log10(specificLoudness);
 
